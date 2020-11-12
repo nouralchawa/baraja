@@ -17,7 +17,14 @@ miBaraja = barajaC.Baraja(palos, numeros)
 
 print (miBaraja.mazacote)
 
+# Reparto mi baraja ordenada
 print (miBaraja.repartir(3, 5))
 
 miBaraja.barajar()
+#print (miBaraja.mazacote)
+
+# Reparto la baraja barajada
+miBaraja = barajaC.Baraja(palos, numeros)
+miBaraja.barajar()
 print (miBaraja.mazacote)
+print (miBaraja.repartir(3, 5))
